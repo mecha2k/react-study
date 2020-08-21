@@ -27,8 +27,6 @@ const COLORS = {
   accent: "#d49446"
 }
 
-const toggle = document.querySelector("toggle")
-
 export const GlobalStyles = createGlobalStyle`
   :root {
     --text-color: ${COLORS.text};

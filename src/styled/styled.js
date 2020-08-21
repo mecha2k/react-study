@@ -10,7 +10,7 @@ const styleCSS = {
   padding: "10px"
 }
 
-function StyledApp(props) {
+function Styled(props) {
   return (
     <div>
       <Button>Styled button</Button>
@@ -21,4 +21,4 @@ function StyledApp(props) {
   )
 }
 
-export default StyledApp
+export default Styled

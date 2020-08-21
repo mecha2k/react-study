@@ -1,18 +1,13 @@
 import React from "react"
-import { BrowserRouter } from "react-router-dom"
-
-import "./App.css"
-import StyledApp from "./StyledApp"
-import NavBar from "./navBar"
+import StyledApp from "./styled/StyledApp"
+import DropdownApp from "./dropdown/DropdownApp"
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <NavBar />
-        <StyledApp />
-      </BrowserRouter>
-    </>
+    <div>
+      {/* <StyledApp /> */}
+      <DropdownApp />
+    </div>
   )
 }
 
