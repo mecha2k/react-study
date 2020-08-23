@@ -1,7 +1,7 @@
 {
   "arrowParens": "always",
   "trailingComma": "none",
-  "printWidth": 120,
+  "printWidth": 100,
   "bracketSpacing": true,
   "jsxBracketSameLine": true,
   "semi": false
