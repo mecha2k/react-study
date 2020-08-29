@@ -1,12 +1,14 @@
 import React from "react"
-import StyledApp from "./styled/StyledApp"
-import DropdownApp from "./dropdown/DropdownApp"
+// import StyledApp from "./styled/StyledApp"
+// import DropdownApp from "./dropdown/DropdownApp"
+import ReactRef from './hooks/ReactRef'
 
 function App() {
   return (
     <div>
       {/* <StyledApp /> */}
-      <DropdownApp />
+      {/* <DropdownApp /> */}
+      <ReactRef />
     </div>
   )
 }
